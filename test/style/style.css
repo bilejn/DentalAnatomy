@@ -1,0 +1,97 @@
+body {
+	color: red;
+	text-align: center;
+}
+div#content {
+	position: relative;
+	top: 40px;
+	margin: 0px, auto;
+	width: 1500px;
+	height: 520px;
+}
+
+
+div#details{
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	height: 520px;
+	width: 300px;
+	background-color: yellow;
+}
+
+#details ul {
+	list-style: none;
+}
+
+div#navigation {
+	position: absolute;
+	top: 485px;
+	left: 350px;
+	width: 600px;
+	height: 35px;
+	background-color: white;
+}
+
+#navigation ul{
+
+	list-style: none;
+	background-color: cyan;
+
+}
+
+#navigation ul li {
+	margin: 0, 20px, 0, 20px;
+	display: inline;
+}
+
+#navigation ul li p {
+	display: inline;
+	margin: 0, 20px, 0, 20px;
+	width: 100px;
+	background-color: yellow;
+}
+
+
+div#background{
+	position: absolute;
+	top:0px;
+	left: 350px;
+	width: 600;
+	height: 480;
+	background-color: white;
+} 
+
+div#view{
+	position: absolute;
+	top: 0px;
+	left: 350px;
+	width: 600;
+	height: 480;
+} 
+
+div#detail{
+	position: absolute;
+	top: 0px;
+	left: 350px;
+	width: 600;
+	height: 480;
+}
+
+div#text {
+	position: absolute;
+	top: 0px;
+	left: 990px;
+	height: 520px;
+	width: 300px;
+	background-color: yellow;
+}
+
+div#unityPlayer{
+	cursor: default;
+	position: absolute;
+	top: 0px;
+	left: 350px;
+	width: 600;
+	height: 480;
+}
